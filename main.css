@@ -1,0 +1,149 @@
+body{
+    /*display: flex;*/
+
+}
+
+.firstRow {
+    display: flex;
+    background-color: #8f8fe0;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    height: 90px;
+
+}
+ #C {
+     width:25%;
+     border-color: white;
+     border-width: thin;
+ }
+ #blank {
+     width: 75%;
+     border-color: white;
+     border-width: thin;
+ }
+
+
+.secondRow {
+    display: flex;
+    background-color: #8f8fe0;
+    flex-direction: row;
+    align-items: center;
+    width: 40%;
+    height: 90px;
+}
+
+#seven {
+    width:25%;
+    border-color: white;
+    border-width: thin;
+}
+#eight {
+    width:25%;
+    border-color: white;
+    border-width: thin;
+}
+#nine {
+    width:25%;
+    border-color: white;
+    border-width: thin;
+}
+#slashDivide {
+    width:25%;
+    border-color: white;
+    border-width: thin;
+    background-color: #CCCCFF;
+}
+
+
+
+.thirdRow {
+    display: flex;
+    background-color: #8f8fe0;
+    flex-direction: row;
+    height: 90px;
+}
+
+#four {
+    width:25%;
+    border-color: white;
+    border-width: thin;
+}
+
+#five {
+    width:25%;
+    border-color: white;
+    border-width: thin;
+}
+
+#six {
+    width:25%;
+    border-color: white;
+    border-width: thin;
+}
+
+#xMultiply {
+    width:25%;
+    border-color: white;
+    border-width: thin;
+    background-color: #CCCCFF;
+}
+
+
+
+.fourthRow {
+    display: flex;
+    background-color: #8f8fe0;
+    flex-direction: row;
+    height: 90px;
+}
+
+#one {
+    width:25%;
+    border-color: white;
+    border-width: thin;
+}
+#two {
+    width:25%;
+    border-color: white;
+    border-width: thin;
+}
+#three {
+    width:25%;
+    border-color: white;
+    border-width: thin;
+}
+#dashMinus {
+    width:25%;
+    border-color: white;
+    border-width: thin;
+}
+
+.fifthRow {
+    display: flex;
+    background-color: #8f8fe0;
+    flex-direction: row;
+    height: 90px;
+}
+
+#zero {
+    width:25%;
+    border-color: white;
+    border-width: thin;
+}
+#dotDecimal {
+    width:25%;
+    border-color: white;
+    border-width: thin;
+}
+#equals {
+    width:25%;
+    border-color: white;
+    border-width: thin;
+}
+#plus {
+    width:25%;
+    border-color: white;
+    border-width: thin;
+    background-color: #CCCCFF;
+}

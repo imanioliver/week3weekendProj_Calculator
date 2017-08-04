@@ -1,149 +1,253 @@
+*{
+/*
+border-style: dashed;
+border-color: red;*/
+}
 body{
+
+    font-family: Lucida;
+    font-size: 1.235em;
+    font-style: normal;
+
+
     /*display: flex;*/
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /*background-color: blue;*/
+}
+
+p {
+    color: white;
+}
+.calculatorBody{
 
 }
 
 .firstRow {
     display: flex;
-    background-color: #8f8fe0;
+    background-color: #008B8B;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     width: 80%;
     height: 90px;
+    /*align-items: center;*/
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
 
 }
  #C {
      width:25%;
+     border-style: solid;
      border-color: white;
      border-width: thin;
+     padding-top: 2%;
  }
  #blank {
      width: 75%;
+     border-style: solid;
      border-color: white;
      border-width: thin;
+     padding-top: 2%;
  }
 
 
 .secondRow {
     display: flex;
-    background-color: #8f8fe0;
+    background-color: #008B8B;
     flex-direction: row;
-    align-items: center;
+    /*align-items: center;*/
     width: 40%;
     height: 90px;
+    /*align-items: center;*/
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
 }
 
 #seven {
     width:25%;
+    border-style: solid;
     border-color: white;
     border-width: thin;
+    padding-top: 2%;
 }
 #eight {
     width:25%;
+    border-style: solid;
     border-color: white;
     border-width: thin;
+    padding-top: 2%;
 }
 #nine {
     width:25%;
+    border-style: solid;
     border-color: white;
     border-width: thin;
+    padding-top: 2%;
 }
 #slashDivide {
     width:25%;
+    border-style: solid;
     border-color: white;
     border-width: thin;
-    background-color: #CCCCFF;
+    background-color: #00C5CD;
+    padding-top: 2%;
+
 }
+
 
 
 
 .thirdRow {
     display: flex;
-    background-color: #8f8fe0;
+    background-color: #008B8B;
     flex-direction: row;
     height: 90px;
+    /*align-items: center;*/
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
 }
 
 #four {
     width:25%;
+    border-style: solid;
     border-color: white;
     border-width: thin;
+    padding-top: 2%;
 }
 
 #five {
     width:25%;
+    border-style: solid;
     border-color: white;
     border-width: thin;
+    padding-top: 2%;
 }
 
 #six {
     width:25%;
+    border-style: solid;
     border-color: white;
     border-width: thin;
+    padding-top: 2%;
 }
 
 #xMultiply {
     width:25%;
+    border-style: solid;
     border-color: white;
     border-width: thin;
-    background-color: #CCCCFF;
+    background-color: #00C5CD;
+    padding-top: 2%;
 }
 
 
 
 .fourthRow {
     display: flex;
-    background-color: #8f8fe0;
+    background-color: #008B8B;
     flex-direction: row;
     height: 90px;
+    /*align-items: center;*/
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
 }
 
 #one {
     width:25%;
+    border-style: solid;
     border-color: white;
     border-width: thin;
+    padding-top: 2%;
 }
 #two {
     width:25%;
+    border-style: solid;
     border-color: white;
     border-width: thin;
+    padding-top: 2%;
 }
 #three {
     width:25%;
+    border-style: solid;
     border-color: white;
     border-width: thin;
+    padding-top: 2%;
 }
 #dashMinus {
     width:25%;
+    border-style: solid;
     border-color: white;
     border-width: thin;
+    background-color: #00C5CD;
+    padding-top: 2%;
 }
 
 .fifthRow {
     display: flex;
-    background-color: #8f8fe0;
+    background-color: #008B8B;
     flex-direction: row;
     height: 90px;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
 }
 
 #zero {
     width:25%;
+    border-style: solid;
     border-color: white;
     border-width: thin;
+    padding-top: 2%;
 }
 #dotDecimal {
     width:25%;
+    border-style: solid;
     border-color: white;
     border-width: thin;
+    padding-top: 2%;
 }
 #equals {
     width:25%;
+    border-style: solid;
     border-color: white;
+    background-color: #b682bc;
     border-width: thin;
+    padding-top: 2%;
 }
 #plus {
     width:25%;
+    border-style: solid;
     border-color: white;
     border-width: thin;
-    background-color: #CCCCFF;
+    background-color: #00C5CD;
+    padding-top: 2%;
 }

@@ -77,7 +77,7 @@ function buttonClicking(event) {
         calculations = [];
         calcWindow.textContent='';
     }
-    console.log(eval(calculations));
+    // console.log(eval(calculations));
 }
 
 

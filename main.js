@@ -14,55 +14,70 @@ function buttonClicking(event) {
     console.log(value);
 
     if (value== '1'){
-        console.log("number1")
+        // console.log("number1");
         calculations = calculations + value;
 
     }if (value== '2'){
-        console.log("number2")
+        // console.log("number2");
         calculations = calculations + value;
+
     }if (value== '3'){
-        console.log("number3")
+        // console.log("number3");
         calculations = calculations + value;
+
     }if (value== '4'){
-        console.log("number4")
+        // console.log("number4");
         calculations = calculations + value;
+
     }if (value== '5'){
-        console.log("number5")
+        // console.log("number5");
         calculations = calculations + value;
+
     }if (value== '6'){
-        console.log("number6")
+        // console.log("number6");
         calculations = calculations + value;
+
     }if (value== '7'){
-        console.log("number7")
+        // console.log("number7");
         calculations = calculations + value;
+
     }if (value== '8'){
-        console.log("number8")
+        // console.log("number8");
         calculations = calculations + value;
+
     }if (value== '9'){
-        console.log("number9")
+        // console.log("number9");
         calculations = calculations + value;
+
     }if (value== '0'){
-        console.log("this is 0")
+        // console.log("this is 0");
         calculations = calculations + value;
+
     }if (value== '+'){
-        console.log("thisIsPlus")
+        // console.log("thisIsPlus");
         calculations = calculations + value;
+
     }if (value== '-'){
-        console.log("thisIsPlus")
+        // console.log("thisIsPlus");
         calculations = calculations + value;
+
     }if (value== '/'){
-        console.log("thisIsPlus")
+        // console.log("thisIsPlus");
         calculations = calculations + value;
+
     }if (value== '*'){
-        console.log("thisIsPlus")
+        // console.log("thisIsPlus")
         calculations = calculations + value;
+
     }if (value== '='){
-        console.log("evaluate NOW!")
-        calcWindow.textContent+=element.target.innerHTML;
+        // console.log("evaluate NOW!");
+        calcWindow.textContent=eval(calculations);
+
     }if (value=='c'){
         calculations = [];
+        calcWindow.textContent='';
     }
-    console.log(eval(calculations.join));
+    console.log(eval(calculations));
 }
 
 
